@@ -13,3 +13,29 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Keystore (¡crítico! nunca subir tu firma)
+*.jks
+*.keystore
+
+# APK y builds
+*.apk
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Google Services (API keys de Firebase)
+google-services.json
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
